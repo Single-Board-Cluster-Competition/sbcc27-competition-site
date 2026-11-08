@@ -2,10 +2,7 @@
 
 ## Current Competition Organizers
 
-- Abir Haque
-- Jackson Yang
-- Gauri Renjith
-- Ferrari Guan
+- 
 
 ## Previous Competition Organizers
 

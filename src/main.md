@@ -1,49 +1,41 @@
-# Welcome to the Single Board Cluster Competition 2026.
+# Welcome to the Single Board Cluster Competition 2027!
 
-This site will contain all relevant info for competitors in terms of submissions and other logistics. For time-based announcements this site will reflect it when the time rolls over according to PST -- teams in forward time zones will be notified of specifics according to their local timezone.
+The *Single-Board Cluster Competition (SBCC)* is an international competition where teams build miniature supercomputing clusters using single-board computers and other similarly compact computing hardware.
 
-The _Single-Board Cluster Competition (SBCC)_ is a competition where teams from all around the world compete using _single-board_ devices, and other similarly simple hardware, to create miniature supercomputing clusters. SBCC26 is the fourth competition. 
+SBCC27 marks the fifth edition of the competition.
 
-## [SBCC LIVE Happening Friday/Saturday (10/10-10/11)! Click here to watch the competition live!](./live.html)
-
-## Schedule <a id="schedule"></a>
-
-*Agenda:*
-
-| DAY | START | END | ACTIVITY |
-| ---- | ---- | ---- | ---- | 
-| Thursday | 8:00 am | 8:00 am (Friday) | Setup |
-| Friday | 8:00 am PDT | 8:30 AM PDT | Opening Ceremony |
-| Friday | 8:00 am | **1:00 pm** | Benchmarking |
-| Friday | 12:00 pm | 5:00 pm | Competition Begins - Applications |
-| Saturday | 8:00 am | 3:00 pm | Final Submissions Due |
-| Saturday | 5:00 pm PDT | 6:00 pm PDT | Awards Ceremony |
-
-Notice that you can submit benchmarks one hour after application details are revealed. Here is the [FULL schedule](./schedule.md)
+This website provides information for participating teams, including competition regulations, hardware requirements, submissions, and logistical details. Additional information will be published as the competition approaches.
 
 ## FAQ <a id="faq"></a>
 
-### What is the price limit for the hardware?
-- 6000 USD, Use american MSRP for hardware cost when possible.
+### What is the hardware budget?
 
-### What is the power limit for the cluster?
-- 250 Watts
+The maximum hardware budget is **$6,000 USD**. International teams may use local market prices converted to USD. Used hardware is permitted with appropriate pricing documentation.
+
+### What is the power limit?
+
+The maximum total cluster power consumption is **300 W measured at the wall**, including compute nodes, networking equipment, storage, cooling, and all other peripherals.
+
+Additionally, each processor or SoC package is subject to a **20 W TDP limit**.
 
 ### Are eGPUs allowed?
-- Yes
+
+Yes, provided they comply with the hardware budget, processor eligibility requirements, and total wall-power limit.
 
 ### Does a DHCP server count as part of the cluster?
-- No, given that it is only used for managing the cluster network / accessing the cluster.
 
+A separate DHCP server used solely for cluster network management is not considered a compute node. Its eligibility and power accounting are subject to competition regulations.
 
 ### Can we use LLMs during the competition?
-- Yes. Only sharing information and getting advice from with mentors and individuals outside the competition should be avoided/not done. Communication in between teams and judges is allowed. Teams may also access the internet on their own computers, but not speak about the competition to others.
+
+Yes. LLMs may be used for assistance with development, debugging, and optimization. Competition workloads must still execute on the team's approved local cluster.
 
 ### Can we wirelessly access our cluster during the competition?
-- No. Only wired access into your cluster is allowed. This is to prevent access during the night. 
 
+No. Cluster access must use wired connections unless the organizing committee explicitly authorizes an exception.
 
-## Join our Discord!
+## Join Our Discord!
+
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const mdContainer = document.querySelector("#mdbook-content > main");
@@ -69,8 +61,6 @@ Notice that you can submit benchmarks one hour after application details are rev
         }
 
         let iframe = createIframe(mediaQuery.matches ? "dark" : "light");
-
-        // Append iframe to the end of #discord
         mdContainer.appendChild(iframe);
 
         mediaQuery.addEventListener("change", function (e) {
