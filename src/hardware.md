@@ -30,9 +30,11 @@
 
 1. The total wall-power consumption of all cluster equipment, including compute nodes, networking, storage, cooling, and peripherals, must remain below 300 W.
 
-2. Each physical processor or SoC package must have a rated Thermal Design Power (TDP) not exceeding 20 W. This limit excludes components external to the processor package.
+2. Each physical processor or SoC package must operate within a max power limit of 20 W. This limit excludes components external to the processor package.
 
-3. Processors or SoCs without publicly documented TDP ratings require committee approval based on supporting technical documentation.
+3. Sustained processor or SoC package power consumption exceeding 20 W constitutes a power violation. The definition of sustained consumption, measurement procedures, and applicable penalties follow SCC26 power enforcement rules.
+
+4. Downclocking, undervolting, and configurable TDP (cTDP) adjustments adaquate TDPs are allowed. Processors or SoCs without publicly documented TDP ratings require committee approval based on supporting technical documentation.
 
 ## 5. Power Monitoring
 
