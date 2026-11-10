@@ -50,26 +50,4 @@
 
 3. Teams may submit modifications within two weeks following proposal approval.
 
-## 7. Team Eligibility
 
-1. Undergraduate and a limited number of graduate students may participate. Each graduate student counts as two undergraduate students for team-size purposes.
-
-2. PhD students are ineligible to compete.
-
-## 8. Competition Computing Restrictions
-
-1. AI-assisted development, debugging, and optimization are permitted.
-
-2. Teams must comply with workload execution and validation requirements. Falsifying results or circumventing required computation is prohibited.
-
-3. The organizing committee may inspect cluster configurations, execution logs, and submitted results to verify compliance.
-
-## 9. General Enforcement
-
-1. Teams are responsible for compliance with all published regulations.
-
-2. The organizing committee may inspect hardware, verify pricing and power measurements, and impose penalties or disqualification for deliberate misrepresentation.
-
-3. Exceptions require committee approval. The committee retains final authority over rule interpretation and enforcement.
-
-4. Official rule changes and clarifications will be communicated through designated competition channels.
