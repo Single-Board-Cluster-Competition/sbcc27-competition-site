@@ -14,7 +14,7 @@
 
 1. Traditional laptops are prohibited by default.
 
-2. Laptop-derived systems substantially equivalent to existing SBCs may be approved on a case-by-case basis at the organizing committee's discretion. Similarity to an SBC does not guarantee approval.
+2. Laptop boards that posess an extremely similar processor package/SoC, as well as similar memory configurations, to existing SBCs may be approved on a case-by-case basis at the organizing committee's discretion. Similarity to an SBC does not guarantee approval.
 
 ## 3. Hardware Budget and Pricing
 
