@@ -8,6 +8,9 @@
 
 We would like to thank all the previous competition organizers for their contributions to this competition. 
 
+- Gauri Renjith
+- Abir Haque
+- Jackson Yang
 - Francisco Fabian "Paco" Gutierrez Lopez
 - Khai Vu
 - Ritoban Roy-Chowdhury
