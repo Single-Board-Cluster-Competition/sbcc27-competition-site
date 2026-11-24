@@ -2,7 +2,16 @@
 
 ## Current Competition Organizers
 
-- 
+- Tom Lu
+- Ferrari Guan
+- Drew Helgerson
+- Oliver Higginbotham
+- Chanyoung Park
+- Jon Calhoun
+- Koh Tze Rui
+- John Bradley
+- Caleb Lin
+
 
 ## Previous Competition Organizers
 
