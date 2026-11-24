@@ -24,7 +24,7 @@
 
 3. Teams using secondhand market pricing must provide at least three comparable listings supporting the declared price.
 
-4. International teams may use local market prices converted to USD.
+4. International teams may use local market prices converted to USD using the exchange rate applicable at the time of proposal submission.
 
 ## 4. Power Limits
 
